@@ -17,7 +17,10 @@ header{
     background-color: #ceac7c;
     padding: 20px;
     font-size: 20px;
+    border-bottom: thick solid #29474d;
 }
+
+
 
 nav ul{
     display: flex;
@@ -28,8 +31,10 @@ nav ul{
 nav ul li{
     list-style: none;
     padding: 15px;
-    font-size: 25px;
+    margin-left: 10px;
+    font-size: 28px;
     transition: transform .2s ease-in-out; /* used with transform property to create animated effect */
+    border-bottom: thick solid #29474d;
 }
 
 /* makes nav bar items pop out a little when mouse is hovered over, AND using transform because changing the font-size can affect borders */
@@ -37,14 +42,44 @@ nav ul li:hover{
     transform: scale(1.1);
 }
 
-.about-me{
+main section{
     display: flex;
-    padding: 5%;
+    flex-direction: column;
+}
+
+.img-piano{
+    height: 600px;
+    position: relative;
+    box-shadow:  11px 11px 22px #7d7d7d;
+}
+
+#keyboard-title{
+    position: relative;
+    background-color: #e7bcb5;
+    align-self: flex-end;
+    bottom: 65px;
+    right: 15px;
+    font-size: 35px;
+    padding: 5px;
+    margin-bottom: -4%;
+    transition: transform .2s ease-in-out;
+    box-shadow: 11px 11px 22px #444444;
+}
+
+#keyboard-title:hover{
+    transform: scale(1.1);
+    cursor: default;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
     align-items: center;
     background-color: #ece7da;
 }
 
-.about-me h2{
+.body-header{
     font-size: 30px;
     margin: 5%;
     padding-right: 12px;
@@ -52,7 +87,13 @@ nav ul li:hover{
     border-right: thick solid #e7bcb5;
 }
 
-.about-me p{
+.section p{
     background-color: #ece7da;
     font-size: 20px;
+}
+
+.work-images{
+    background-color: #29474d;
+    max-height: 30px;
+    max-width: 30px;
 }
