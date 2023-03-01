@@ -5,7 +5,7 @@
 }
 
 
-makes 
+/* makes scroll when clicking nav items smooth  */
 html{
     scroll-behavior: smooth;
 }
