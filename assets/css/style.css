@@ -41,13 +41,14 @@ ul li{
     padding: 15px;
     margin-left: 10px;
     font-size: 28px;
-    transition: transform .2s ease-in-out; /* used with transform property to create animated effect */
+    transition: all .2s ease-in-out; /* used with :hover pseudo-class to create animated effect */
     border-bottom: thick solid #29474d;
 }
 
-/* makes nav bar items pop out a little when mouse is hovered over, AND using transform because changing the font-size can affect borders */
+/* makes nav bar items pop up a little when mouse is hovered over, AND using transform because changing the font-size can affect borders */
 nav ul li:hover{
-    transform: scale(1.1);
+    transform:translateY(8px);
+    color: white;
 }
 
 main section{
@@ -123,6 +124,8 @@ main section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: start;
+    width: 50%;
+    height: 50%;
     padding: 5px;
     justify-content: center;
 }
@@ -175,6 +178,7 @@ main section{
     main, nav{
         flex-direction: column;
         text-align: center;
+        margin: 2%
     }
 
     nav ul{
