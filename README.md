@@ -6,7 +6,7 @@
 
 ## Visit The Site!
 
-  You can visit the deployed website here: https://shimmyshong.github.io/code-refactor/ 
+  You can visit the deployed website here: https://shimmyshong.github.io/personal-portfolio/
 
 ![horiseon home page](assets/images/chrome_2KK7mnRWLe.png)
 
